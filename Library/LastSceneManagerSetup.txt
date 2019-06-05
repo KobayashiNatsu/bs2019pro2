@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Summer.unity
+- path: Assets/0KAMURA/0KAMURA001.unity
   isLoaded: 1
   isActive: 1
