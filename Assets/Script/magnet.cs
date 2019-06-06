@@ -44,8 +44,8 @@ public class magnet : MonoBehaviour {
 
         if (DebugMode)
         {
-            var beem = Instantiate(Debug_BeemOBJ, localRayStartPos.transform.position, new Quaternion(0, 0, 0, 0), transform);
-            beem.GetComponent<Rigidbody>().AddForce(targetRay.direction * 100);
+            var beem = Instantiate(Debug_BeemOBJ, localRayStartPos.transform.position, new Quaternion(0, 0, 0, 0), null);
+            beem.GetComponent<Rigidbody>().AddForce(targetRay.direction * 500);
         }
 
         Debug.DrawRay(targetRay.origin, targetRay.direction * rayDistance, Color.yellow, 0.1f, false);
