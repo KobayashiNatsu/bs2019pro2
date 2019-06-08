@@ -1,4 +1,5 @@
 sceneSetups:
-- path: Assets/1Summer/Summer.unity
+- path: Assets/masamune/masamune.unity
   isLoaded: 1
   isActive: 1
+  isSubScene: 0
