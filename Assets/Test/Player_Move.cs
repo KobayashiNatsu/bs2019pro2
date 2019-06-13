@@ -11,6 +11,7 @@ public class Player_Move : MonoBehaviour {
     ///移動関係
     Vector3 HOUKOU;
     public Rigidbody P_RB;
+
     public GameObject PLAYER_H;
     Player_Rotation P_MOVE;
 
@@ -24,16 +25,15 @@ public class Player_Move : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
+
         //P_MOVE = PLAYER_H.GetComponent<Player_Rotation>();
 
         //Vector3 PV= PLAYER_H.transform.position;
         if (Input.GetKey(KeyCode.W))
         {
-            
             P_RB.AddForce(this.transform.forward * SPEED * Time.deltaTime);
         }
-      
-            if (Input.GetKeyUp(KeyCode.W))
+        if (Input.GetKeyUp(KeyCode.W))
         {
             P_RB.velocity = Vector3.zero;
         }
