@@ -62,9 +62,11 @@ public class magnet : MonoBehaviour {
             {
                 case MAGNET_PATTERN.PLUS:
                     PlayerMagnet = MAGNET_PATTERN.MINUS;
+                    Light_RorB.Change_color(false);
                     break;
                 case MAGNET_PATTERN.MINUS:
                     PlayerMagnet = MAGNET_PATTERN.PLUS;
+                    Light_RorB.Change_color(true);
                     break;
             }
         }
