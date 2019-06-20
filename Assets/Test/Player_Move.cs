@@ -22,6 +22,10 @@ public class Player_Move : MonoBehaviour {
 
     Vector3 P_VECTOR;
 
+    bool isJump = true;
+
+    public float JUMP_POWER = 10f;
+
 
 
     // Use this for initialization
