@@ -25,8 +25,13 @@ public class Camera_Rotation2 : MonoBehaviour {
 
         float nowAngle = (transform.localEulerAngles.x + 90) % 360;
 
-        if (Y_Rotation < 0 && nowAngle < 50) return;
-        if (Y_Rotation > 0 && nowAngle > 90) return;
+        if (Y_Rotation > 0 && nowAngle < 30) return;
+        if (Y_Rotation < 0 && nowAngle > 120) return;
+
+
+        Debug.Log("nowAngle:" + nowAngle);
+        Debug.Log("Y_Rotation:" + Y_Rotation);
+        
 
         transform.Rotate(new Vector3(1, 0, 0), -Y_Rotation);
     }
