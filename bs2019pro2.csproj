@@ -242,9 +242,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Script\Camera_Rotation2.cs" />
+    <Compile Include="Assets\Script\CursorConf.cs" />
     <Compile Include="Assets\Script\DebugBeem.cs" />
     <Compile Include="Assets\Script\jump.cs" />
     <Compile Include="Assets\Script\magnet.cs" />
+    <Compile Include="Assets\Script\Model_01\Beam_Color.cs" />
+    <Compile Include="Assets\Script\Model_01\Demo.cs" />
+    <Compile Include="Assets\Script\Model_01\Light_RorB.cs" />
     <Compile Include="Assets\Script\Player_Rotation2.cs" />
     <Compile Include="Assets\Test\Camera_Rotation.cs" />
     <Compile Include="Assets\Test\Input_All.cs" />
