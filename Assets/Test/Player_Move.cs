@@ -15,7 +15,7 @@ public class Player_Move : MonoBehaviour {
     public GameObject PLAYER_H;
     Player_Rotation P_MOVE;
 
-    bool W_UP;
+    bool W_UP,A_UP,S_UP,D_UP;
 
     public int AKUSERA_TIME;
     public float MAX_SPEED = 10f;
@@ -61,10 +61,13 @@ public class Player_Move : MonoBehaviour {
         if (Input.GetKey(KeyCode.A))
         {
             P_RB.AddForce(this.transform.right * -SPEED * Time.deltaTime);
+            A_UP = false;
         }
         if (Input.GetKeyUp(KeyCode.A))
         {
-            P_RB.velocity = Vector3.zero;
+            //P_RB.velocity = Vector3.zero;
+            A_UP = true;
+
         }
 
         if (Input.GetKey(KeyCode.S))
@@ -91,6 +94,36 @@ public class Player_Move : MonoBehaviour {
             AKUSERA_TIME++;
         }
         else if(AKUSERA_TIME == 11)
+        {
+            W_UP = false;
+        }
+
+        if (W_UP == true && AKUSERA_TIME < 11)
+        {
+            P_RB.AddForce(this.transform.forward * -SPEED * Time.deltaTime);
+            AKUSERA_TIME++;
+        }
+        else if (AKUSERA_TIME == 11)
+        {
+            W_UP = false;
+        }
+
+        if (W_UP == true && AKUSERA_TIME < 11)
+        {
+            P_RB.AddForce(this.transform.forward * -SPEED * Time.deltaTime);
+            AKUSERA_TIME++;
+        }
+        else if (AKUSERA_TIME == 11)
+        {
+            W_UP = false;
+        }
+
+        if (W_UP == true && AKUSERA_TIME < 11)
+        {
+            P_RB.AddForce(this.transform.forward * -SPEED * Time.deltaTime);
+            AKUSERA_TIME++;
+        }
+        else if (AKUSERA_TIME == 11)
         {
             W_UP = false;
         }
