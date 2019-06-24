@@ -29,8 +29,8 @@ public class Camera_Rotation2 : MonoBehaviour {
         if (Y_Rotation < 0 && nowAngle > 120) return;
 
 
-        Debug.Log("nowAngle:" + nowAngle);
-        Debug.Log("Y_Rotation:" + Y_Rotation);
+        //Debug.Log("nowAngle:" + nowAngle);
+        //Debug.Log("Y_Rotation:" + Y_Rotation);
         
 
         transform.Rotate(new Vector3(1, 0, 0), -Y_Rotation);

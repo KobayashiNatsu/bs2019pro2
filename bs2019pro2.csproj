@@ -241,6 +241,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\0KAMURA\Script\Puzzle_Clear.cs" />
+    <Compile Include="Assets\0KAMURA\Script\Puzzle_Detect.cs" />
+    <Compile Include="Assets\0KAMURA\Script\Puzzle_DetectM.cs" />
+    <Compile Include="Assets\0KAMURA\Script\Puzzle_DetectP.cs" />
     <Compile Include="Assets\Model_02\Beam_Color.cs" />
     <Compile Include="Assets\Model_02\Demo.cs" />
     <Compile Include="Assets\Model_02\Light_RorB.cs" />
