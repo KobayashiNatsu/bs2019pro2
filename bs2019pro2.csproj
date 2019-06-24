@@ -241,6 +241,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\0KAMURA\Script\Belt_Effect.cs" />
+    <Compile Include="Assets\0KAMURA\Script\Belt_Move.cs" />
     <Compile Include="Assets\0KAMURA\Script\Puzzle_Clear.cs" />
     <Compile Include="Assets\0KAMURA\Script\Puzzle_Detect.cs" />
     <Compile Include="Assets\0KAMURA\Script\Puzzle_DetectM.cs" />
@@ -249,7 +251,6 @@
     <Compile Include="Assets\Model_02\Demo.cs" />
     <Compile Include="Assets\Model_02\Light_RorB.cs" />
     <Compile Include="Assets\Script\Camera_Rotation2.cs" />
-    <Compile Include="Assets\Script\CursorConf.cs" />
     <Compile Include="Assets\Script\DebugBeem.cs" />
     <Compile Include="Assets\Script\jump.cs" />
     <Compile Include="Assets\Script\magnet.cs" />

@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Puzzle_DetectP : MonoBehaviour {
-    private int SUM_PLUS_02, SUM_MINUS_02;
     public Puzzle_Clear Puzzle_Clear;
 
     // Use this for initialization
@@ -13,22 +12,21 @@ public class Puzzle_DetectP : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        SUM_PLUS_02 = Puzzle_Clear.SUM_PLUS;
-        SUM_MINUS_02 = Puzzle_Clear.SUM_MINUS;
     }
     private void OnTriggerEnter(Collider other)
     {
-        if (gameObject.tag == "plus")
+        //Debug.Log("当たった");
+        if (other.tag == "plus")
         {
-            SUM_PLUS_02++;
+            Puzzle_Clear.SUM_PLUS++;
         }
     }
 
     private void OnTriggerExit(Collider other)
     {
-        if (gameObject.tag == "plus")
+        if (other.tag == "plus")
         {
-            SUM_PLUS_02--;
+            Puzzle_Clear.SUM_PLUS--;
         }
     }
 }
