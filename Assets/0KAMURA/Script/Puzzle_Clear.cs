@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class Puzzle_Clear : MonoBehaviour {
 
-    public int SUM_PLUS, SUM_MINUS;
+    public int SUM_PLUS = 0, SUM_MINUS = 0;
+    public bool ALL_CLEAR;
+    //int PLUS_CLEAR = 6, MINUS_CLEAR = 6;
 
     // Use this for initialization
     void Start () {
@@ -13,9 +15,11 @@ public class Puzzle_Clear : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        if (SUM_PLUS == 1 && SUM_MINUS == 1)
+        //if (SUM_PLUS == PLUS_CLEAR && SUM_MINUS == MINUS_CLEAR)
+        if (SUM_PLUS == 4 && SUM_MINUS == 4)
         {
-            Debug.Log("Clear!!!!!!!!!!!");
+            //Debug.Log("Clear!!!!!!!!!!!");
+            ALL_CLEAR = true;
         }
 	}
 }

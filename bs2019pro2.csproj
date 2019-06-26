@@ -241,8 +241,23 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\0KAMURA\aaaaaaaaaaaas.cs" />
+    <Compile Include="Assets\0KAMURA\Door_Up.cs" />
+    <Compile Include="Assets\0KAMURA\Script\Basic_Script4\Camera_Rotation24.cs" />
+    <Compile Include="Assets\0KAMURA\Script\Basic_Script4\DebugBeem04.cs" />
+    <Compile Include="Assets\0KAMURA\Script\Basic_Script4\jump04.cs" />
+    <Compile Include="Assets\0KAMURA\Script\Basic_Script4\magnet04.cs" />
+    <Compile Include="Assets\0KAMURA\Script\Basic_Script4\Player_Move04.cs" />
+    <Compile Include="Assets\0KAMURA\Script\Basic_Script4\Player_Rotation24.cs" />
+    <Compile Include="Assets\0KAMURA\Script\Beam_Small.cs" />
     <Compile Include="Assets\0KAMURA\Script\Belt_Effect.cs" />
     <Compile Include="Assets\0KAMURA\Script\Belt_Move.cs" />
+    <Compile Include="Assets\0KAMURA\Script\Box_Move.cs" />
+    <Compile Include="Assets\0KAMURA\Script\Can_Escape.cs" />
+    <Compile Include="Assets\0KAMURA\Script\Hijyouguti.cs" />
+    <Compile Include="Assets\0KAMURA\Script\Miss_Pazzle.cs" />
+    <Compile Include="Assets\0KAMURA\Script\Movie_Start.cs" />
+    <Compile Include="Assets\0KAMURA\Script\Movie_Test.cs" />
     <Compile Include="Assets\0KAMURA\Script\Puzzle_Clear.cs" />
     <Compile Include="Assets\0KAMURA\Script\Puzzle_Detect.cs" />
     <Compile Include="Assets\0KAMURA\Script\Puzzle_DetectM.cs" />

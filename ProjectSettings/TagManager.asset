@@ -7,6 +7,8 @@ TagManager:
   - ground
   - plus
   - minus
+  - BeltConveyorR
+  - BeltConveyorL
   layers:
   - Default
   - TransparentFX
