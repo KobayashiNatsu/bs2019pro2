@@ -255,6 +255,7 @@
     <Compile Include="Assets\0KAMURA\Script\Box_Move.cs" />
     <Compile Include="Assets\0KAMURA\Script\Can_Escape.cs" />
     <Compile Include="Assets\0KAMURA\Script\Hijyouguti.cs" />
+    <Compile Include="Assets\0KAMURA\Script\Instant_Block.cs" />
     <Compile Include="Assets\0KAMURA\Script\Miss_Pazzle.cs" />
     <Compile Include="Assets\0KAMURA\Script\Movie_Start.cs" />
     <Compile Include="Assets\0KAMURA\Script\Movie_Test.cs" />
